@@ -165,3 +165,17 @@ switch (age) {
         Console.WriteLine("Нет билета");
         break;
 }
+
+// доп задание
+// Console.Write("Введите число: ");
+// int number = int.Parse(Console.ReadLine()!);
+
+// string result = number switch {
+//     < 0 => "Отрицательное",
+//     1 or 2 or 3 => "Маленькое число",
+//     >= 0 and <= 9 => "Однозначное",
+//     >= 10 and <= 99 => "Двузначное",
+//     _ => "Трёхзначное или больше"
+// };
+
+// Console.WriteLine(result);
